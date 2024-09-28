@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                     // ou ES2015
+    "module": "commonjs",                // Type de module
+    "outDir": "./dist",                  // Répertoire de sortie pour les fichiers compilés
+    "rootDir": "./src",                  // Répertoire source
+    "strict": true,                       // Active les vérifications strictes
+    "esModuleInterop": true,              // Interopérabilité ES6
+    "skipLibCheck": true,                // Ignore les vérifications des fichiers .d.ts
+    "forceConsistentCasingInFileNames": true // Casse cohérente des noms de fichiers
+  },
+  "include": [
+    "src/**/*.ts"                         // Inclure tous les fichiers .ts dans le répertoire src
+  ],
+  "exclude": [
+    "node_modules",                       // Exclure le répertoire node_modules
+    "**/*.spec.ts"                        // Exclure les fichiers de test si nécessaire
+  ]
+}
